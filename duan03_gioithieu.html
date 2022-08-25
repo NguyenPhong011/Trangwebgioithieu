@@ -13,6 +13,7 @@
         $(document).ready(function() {
             $(".read-more ").click(function() {
                 $(this).prev().toggle();
+                $(this).siblings('.dots').toggle();
                 if ($(this).text() == 'Xem thêm') {
                     $(this).text('Xem thêm');
                 } else {
@@ -78,7 +79,7 @@
                 nhất ở phía trên ở phía bắc và hẹp ở phía dưới ở phía nam. Chạy dọc theo bờ biển phía Tây là Bãi Dài nổi tiếng, nơi có nhiều khu nghỉ dưỡng và nhà hàng và là địa điểm hoàn hảo để đón hoàng hôn Phú Quốc tuyệt vời , vì bãi biển chạy dài
                 gần một nửa chiều dài của hòn đảo, bạn không nên vất vả tìm kiếm một nơi yên tĩnh.
                 <p></p>
-                <span class="dots"></span>
+                <span class="dots">...</span>
                 <span class="more-content">
                          Trong khi Bãi Dài chiếm ưu thế ở bờ biển phía tây, ở phía bắc Công viên Quốc gia và các khu vực nông thôn là những điểm thu hút chính với những con đường mòn đi bộ đường dài, thác nước và động vật hoang dã tuyệt vời đang chờ đợi những người có cảm giác mạo hiểm mạnh mẽ!
                     </span>
